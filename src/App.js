@@ -4,7 +4,6 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Login from './components/Auth/Login';
 import Register from './components/Auth/Register';
-import Dashboard from './components/Dashboard/Dashboard';
 import Projects from './components/Projects/Projects';
 import Tasks from './components/Tasks/Tasks';
 import AdminUsers from './components/Admin/AdminUsers';

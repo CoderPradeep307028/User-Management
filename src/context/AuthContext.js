@@ -70,12 +70,6 @@ export const AuthProvider = ({ children }) => {
   };
 
   const register = async (name, email, password, role) => {
-    const config = {
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    };
-
     const body = { name, email, password, role };
 
     try {

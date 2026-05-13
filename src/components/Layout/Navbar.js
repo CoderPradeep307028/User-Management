@@ -45,17 +45,6 @@ const Navbar = () => {
     authLinks.push({ label: 'Admin', to: '/admin' });
   }
 
-  const guestLinks = (
-    <>
-      <Button color="inherit" component={Link} to="/login">
-        Login
-      </Button>
-      <Button color="inherit" component={Link} to="/register">
-        Register
-      </Button>
-    </>
-  );
-
   return (
     <AppBar position="static">
       <Toolbar sx={{ flexWrap: 'wrap' }}>
